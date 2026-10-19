@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" font-family="'Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7aa2f7"/><stop offset="100%" stop-color="#3d59a1"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bb9af7"/><stop offset="100%" stop-color="#7847bd"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dcfff"/><stop offset="100%" stop-color="#2d7fa8"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ece6a"/><stop offset="100%" stop-color="#557a3a"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0af68"/><stop offset="100%" stop-color="#a07529"/>
+    </linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7768e"/><stop offset="100%" stop-color="#a83a4d"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#565f89"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="520" fill="#1a1b26"/>
+  <text x="360" y="42" fill="#c0caf5" font-size="24" text-anchor="middle" font-weight="bold">Omarchy 技術堆疊</text>
+  <text x="360" y="68" fill="#565f89" font-size="13" text-anchor="middle">由上到下：使用者看到的 → 底層運作的</text>
+
+  <rect x="70" y="95" width="580" height="54" rx="10" fill="url(#g1)"/>
+  <text x="360" y="120" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">使用者 / 你的應用程式</text>
+  <text x="360" y="139" fill="#0f1117" font-size="12" text-anchor="middle">終端機、瀏覽器、編輯器、筆記…</text>
+
+  <rect x="70" y="163" width="580" height="54" rx="10" fill="url(#g2)"/>
+  <text x="360" y="188" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">Omarchy 整合層</text>
+  <text x="360" y="207" fill="#0f1117" font-size="12" text-anchor="middle">omarchy 指令、AI 代理、預設配置、主題</text>
+
+  <rect x="70" y="231" width="580" height="54" rx="10" fill="url(#g3)"/>
+  <text x="360" y="256" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">Quickshell 桌面外殼</text>
+  <text x="360" y="275" fill="#0f1117" font-size="12" text-anchor="middle">狀態列、啟動器、通知、控制面板</text>
+
+  <rect x="70" y="299" width="580" height="54" rx="10" fill="url(#g4)"/>
+  <text x="360" y="324" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">Hyprland 視窗管理器</text>
+  <text x="360" y="343" fill="#0f1117" font-size="12" text-anchor="middle">平鋪視窗、工作區、快捷鍵（Wayland）</text>
+
+  <rect x="70" y="367" width="580" height="54" rx="10" fill="url(#g5)"/>
+  <text x="360" y="392" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">Arch Linux 基礎系統</text>
+  <text x="360" y="411" fill="#0f1117" font-size="12" text-anchor="middle">核心、pacman 套件管理、systemd</text>
+
+  <rect x="70" y="435" width="580" height="54" rx="10" fill="url(#g6)"/>
+  <text x="360" y="460" fill="#0f1117" font-size="17" text-anchor="middle" font-weight="bold">硬體</text>
+  <text x="360" y="479" fill="#0f1117" font-size="12" text-anchor="middle">CPU、記憶體、磁碟、顯示卡</text>
+
+  <line x1="360" y1="149" x2="360" y2="163" stroke="#565f89" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="360" y1="217" x2="360" y2="231" stroke="#565f89" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="360" y1="285" x2="360" y2="299" stroke="#565f89" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="360" y1="353" x2="360" y2="367" stroke="#565f89" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="360" y1="421" x2="360" y2="435" stroke="#565f89" stroke-width="2" marker-end="url(#arr)"/>
+</svg>

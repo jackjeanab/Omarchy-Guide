@@ -1,0 +1,11 @@
+# 忽略暫存與系統檔案
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+~$*
+
+# 編輯器
+.obsidian/workspace*
+.vscode/
+.idea/
